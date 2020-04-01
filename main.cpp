@@ -42,8 +42,8 @@ int main() {
     file.close();
 
     //SHOW NODES' VALUE
-    for(int x : m.getNodes().)
-        cout << x << endl;
+    for(int i; i<m.getSize(0); i++)
+        cout << m.getNode(i).getX() << endl;
 
 
     return 0;
